@@ -1,0 +1,180 @@
+body {
+  background: #e4ff9c;
+}
+
+nav {
+  font-family: "Ubuntu", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: #4c6800;
+  color: white;
+}
+
+nav ul li {
+  padding: 0 12px;
+  cursor: pointer;
+}
+.brand img {
+  padding: 0 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+header {
+  background-image: url(foodbg2.jpg);
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 30vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay with 50% opacity */
+  z-index: 1;
+}
+header h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  z-index: 2; /* keeps text above the overlay */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.container {
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+textarea {
+  width: 80%;
+  height: 80px;
+  padding: 20px;
+  font-size: 1rem;
+  color: #4c6800;
+  background: rgba(255, 255, 255, 0.1); /* Glass base */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  backdrop-filter: blur(10px); /* Glass blur effect */
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  resize: none;
+  outline: none;
+  margin: 20px auto;
+  display: block;
+}
+button {
+  height: 3rem;
+  background-color: #4c6800;
+  color: white;
+  font-size: 1.15rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.recipe-card {
+  width: 100%;
+  background: transparent;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.recipe-card:hover {
+  transform: scale(1.02);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.recipe-card h3 {
+  margin: 12px;
+  font-size: 1.1rem;
+  color: #4c6800;
+}
+
+.recipe-card a {
+  display: grid;
+  margin-bottom: 12px;
+  padding: 6px 14px;
+  background-color: #4c6800;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}
+
+#full-recipe {
+  padding: 20px;
+  background: 0 0 15px rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  height: 50px;
+  width: auto;
+  background-color: #4c6800;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-weight: bold;
+  color: white;
+}
+@media (max-width: 600px) {
+  textarea {
+    width: 90%;
+    font-size: 0.9rem;
+    padding: 15px;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  nav ul {
+    align-items: center;
+    justify-content: center;
+  }
+  nav ul li {
+    padding-right: 8px;
+  }
+  .brand {
+    padding-right: 10px;
+  }
+}

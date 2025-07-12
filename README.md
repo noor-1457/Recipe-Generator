@@ -1,48 +1,60 @@
-🍽️ Recipe Generator
-Live Demo: Click Here
-Screenshot:
+# 🍽️ Recipe Generator
 
-📋 Description
-The Recipe Generator is a simple and interactive web app that fetches random recipes for users. It is designed for food lovers who want cooking inspiration at the click of a button. The app uses an external recipe API to generate real-time dish ideas, complete with ingredients, instructions, and images.
+A fun and easy-to-use web application that fetches and displays random recipes with just one click! This app is perfect for food lovers who want to discover new meal ideas from various cuisines.
 
-🚀 Features
-🔄 Get random recipes instantly
+🔗 **Live Demo**: [Recipe Generator](https://noor-1457.github.io/Recipe-Generator/)
 
-🍴 See ingredients and cooking instructions
+---
 
-🖼️ View recipe images
+## ✨ Features
 
-🌐 Fully responsive and mobile-friendly layout
+- 🍲 Generates a random recipe on button click
+- 📋 Displays recipe name, ingredients, and cooking instructions
+- 📷 Shows recipe images for better presentation
+- 🌍 Explores dishes from different regions
+- 📱 Fully responsive and mobile-friendly
 
-🛠️ Tech Stack
-HTML5
+---
 
-CSS3
+## 📸 Screenshot
 
-JavaScript
+![Recipe Generator Screenshot](./screenshot.png)
+> *(Optional: Replace with an actual screenshot of your project interface)*
 
-Recipe API (e.g., TheMealDB or similar)
+---
 
-📂 How to Use
-Visit the Live Website
+## 🚀 Technologies Used
 
-Click the "Get Recipe" button
+- **HTML5** – Structure and layout  
+- **CSS3** – Styling and responsive design  
+- **JavaScript (ES6)** – Interactivity and API fetching  
+- **MealDB API** – Source of recipe data
 
-Discover a new random recipe with complete details
+---
 
-Cook and enjoy! 🍳
+## 📂 How to Run Locally
 
-🖼️ Screenshot
-![Calculator Screenshot](./Screenshot.png)
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/noor-1457/Recipe-Generator.git
 
+Navigate into the project directory:
+cd Recipe-Generator
+---
 📌 Future Improvements
-Add recipe search by name or ingredient
+Search by ingredient or dish name
 
-Allow users to save favorite recipes
+Filter recipes by category (desserts, vegan, etc.)
 
-Filter by cuisine or meal type
+Save favorite recipes
 
-👩‍💻 Author
-Noor Fatima
-GitHub Profile
+Dark mode toggle
 
+🙌 Contributing
+Have a cool idea or want to improve the UI? Contributions are welcome! Fork the repo, make your changes, and submit a pull request.
+
+📃 License
+This project is licensed under the MIT License.
+
+🤝 Connect
+GitHub: @noor-1457

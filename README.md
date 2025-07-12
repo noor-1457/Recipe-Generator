@@ -19,7 +19,7 @@ A fun and easy-to-use web application that fetches and displays random recipes w
 ## 📸 Screenshot
 
 ![Recipe Generator Screenshot](./screenshot.png)
-> *(Optional: Replace with an actual screenshot of your project interface)*
+
 
 ---
 
